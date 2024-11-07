@@ -1,10 +1,9 @@
 {
-    "imports": {
-        "@std/dotenv": "jsr:@std/dotenv@^0.225.2",
-        "@mtcute/deno": "jsr:@mtcute/deno@^0.17.0",
-        "@mtcute/dispatcher": "jsr:@mtcute/dispatcher@^0.17.2"
-    },
-    "tasks": {
-        "start": "deno run -A --unstable-ffi ./src/main.ts"
-    }
+  "imports": {
+    "@mtcute/deno": "jsr:@mtcute/deno@^0.17.0",
+    "ollama": "npm:ollama@^0.5.9"
+  },
+  "tasks": {
+    "start": "deno run -A --env-file=.env --unstable-ffi ./src/main.ts"
+  }
 }
