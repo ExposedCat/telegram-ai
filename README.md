@@ -1,6 +1,6 @@
 # Telegram AI
 
-Empower your Telegram Messenger expirience with Large Language AI Models
+Empower your Telegram Messenger experience with Large Language AI Models
 
 ## Running
 - Install Deno:
